@@ -9,6 +9,14 @@
 .text-start {
   text-align: left; }
 
+.cards-wrapper .card .card-header:after, .cards-wrapper .card .card-header:before {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #eeeeee;
+  position: absolute; }
+
 /* Header span */
 .cards-wrapper {
   /* Setting up the Card*/
@@ -24,6 +32,10 @@
       max-height: 157px;
       width: 100%;
       min-width: 385px; }
+      .cards-wrapper .card .card-header:after {
+        bottom: -100px; }
+      .cards-wrapper .card .card-header:before {
+        bottom: -170px; }
       .cards-wrapper .card .card-header .tag {
         padding: 5px 15px;
         border-radius: 5px;

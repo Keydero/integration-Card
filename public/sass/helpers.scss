@@ -12,3 +12,12 @@ $noto: 'Noto Sans', sans-serif;
 .text-start {
 	text-align: left;
 }
+
+%stroke {
+	content: '';
+	display: inline-block;
+	width: 100%;
+	height: 1px;
+	background-color:  #eeeeee;
+	position: absolute;
+}

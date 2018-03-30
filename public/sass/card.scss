@@ -11,6 +11,14 @@
 		/* Card header */
 		.card-header {
 			position: relative;
+		&:after {
+			@extend %stroke;
+			bottom: -100px;
+		}
+		&:before {
+			@extend %stroke;
+			bottom: -170px;	
+		}
 			.tag {
 				padding: 5px 15px;
 				border-radius: 5px;
