@@ -1,0 +1,8 @@
+body {
+  background-color: #f1f2f5; }
+  body main {
+    height: 100vh; }
+    body main .container {
+      margin: 75px 25px 50px 25px;
+      height: 100%;
+      background-color: white; }
