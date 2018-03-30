@@ -17,10 +17,22 @@
     min-width: 385px;
     max-height: 421px; }
     .cards-wrapper .card .card-header {
+      position: relative;
       height: 100%;
       max-height: 157px;
       width: 100%;
       min-width: 385px; }
+      .cards-wrapper .card .card-header .tag {
+        padding: 5px 15px;
+        border-radius: 5px;
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        background-color: #162c45;
+        border-color: #162c45;
+        color: white;
+        font-family: "Noto Sans", sans-serif;
+        font-size: 0.7em; }
       .cards-wrapper .card .card-header img {
         width: 100%;
         height: 100%; }
@@ -53,12 +65,3 @@
         width: 100%;
         height: 4px;
         border-radius: 4.5px; }
-
-progress[value]::-webkit-progress-bar {
-  background-color: #f0f0f0;
-  border-radius: 4.5px;
-  box-shadow: 0 2px 5px #f0f0f0 inset; }
-
-progress[value]::-webkit-progress-value {
-  background-color: #3fd48b;
-  border-radius: 4.5px; }

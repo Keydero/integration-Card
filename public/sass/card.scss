@@ -8,6 +8,19 @@
 		min-width: 385px;
 		max-height: 421px;
 		.card-header {
+			position: relative;
+			.tag {
+				padding: 5px 15px;
+				border-radius: 5px;
+				position: absolute;
+				top: 5px;
+				right: 10px;
+				background-color: $tag;
+				border-color: $tag;
+				color: white;
+				font-family: $noto;
+				font-size: 0.7em;
+			}
 			height: 100%;
 			max-height: 157px;
 			width: 100%;
@@ -53,15 +66,4 @@
 			}
 		}
 	}
-}
-
-progress[value]::-webkit-progress-bar {
-  background-color: #f0f0f0;
-  border-radius: 4.5px;
-  box-shadow: 0 2px 5px #f0f0f0 inset;
-}
-
-progress[value]::-webkit-progress-value {
-  background-color: #3fd48b;
-  border-radius: 4.5px
 }
