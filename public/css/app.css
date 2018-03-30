@@ -1,3 +1,22 @@
+.has-shadow {
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.1); }
+
+.cards-wrapper {
+  height: 100%; }
+  .cards-wrapper .card {
+    width: 28%;
+    min-width: 385px;
+    height: 38%;
+    min-height: 421px;
+    background-color: green; }
+    .cards-wrapper .card .card--header {
+      min-height: 157px;
+      width: 100%;
+      min-width: 385px; }
+      .cards-wrapper .card .card--header img {
+        width: 100%;
+        height: 100%; }
+
 body {
   background-color: #f1f2f5; }
   body main {
