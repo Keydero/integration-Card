@@ -1,15 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans:700");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:800");
 .has-shadow {
   box-shadow: 0 14px 20px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.1); }
 
 /*  'Noto Sans', sans-serif; */
+.text-end {
+  text-align: right; }
+
+.text-start {
+  text-align: left; }
+
 /* Header span */
 .cards-wrapper {
   height: 100%; }
   .cards-wrapper .card {
     width: 28%;
     min-width: 385px;
-    height: 38%;
     max-height: 421px; }
     .cards-wrapper .card .card-header {
       height: 100%;
@@ -22,14 +27,38 @@
 
 /* Content Header */
 .card {
-  height: 100%; }
+  min-height: 421px; }
   .card .card-content {
-    margin-left: 20px;
+    margin: 0px 25px 0px 25px;
     font-family: 'Noto Sans', sans-serif;
     color: #162c45; }
-    .card .card-content h1 {
+    .card .card-content .card-content__company {
       font-size: 1.1em;
-      margin-bottom: 5px; }
-    .card .card-content h2 {
+      margin-bottom: 5px;
+      line-height: normal;
+      font-stretch: normal; }
+    .card .card-content .card-content__advertiser {
       margin: 5px 0px 5px 0px;
-      font-size: 0.9em; }
+      font-size: 0.9em;
+      line-height: normal; }
+    .card .card-content .date {
+      font-size: 0.6em;
+      color: #8c8c8c;
+      margin: 0px; }
+    .card .card-content .progress-bar {
+      margin: 5px 0px;
+      display: flex;
+      justify-content: center; }
+      .card .card-content .progress-bar progress {
+        width: 100%;
+        height: 4px;
+        border-radius: 4.5px; }
+
+progress[value]::-webkit-progress-bar {
+  background-color: #f0f0f0;
+  border-radius: 4.5px;
+  box-shadow: 0 2px 5px #f0f0f0 inset; }
+
+progress[value]::-webkit-progress-value {
+  background-color: #3fd48b;
+  border-radius: 4.5px; }

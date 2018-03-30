@@ -4,5 +4,11 @@
 }
 
 /*  'Noto Sans', sans-serif; */
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:800');
 
+.text-end {
+	text-align: right;
+}
+.text-start {
+	text-align: left;
+}
