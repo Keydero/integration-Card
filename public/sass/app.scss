@@ -1,5 +1,6 @@
 @import 'card';
 @import 'colors';
+  /* Global setting */
 body {
 	background-color: $gray;
 	main {
@@ -12,7 +13,7 @@ body {
 	}
 }
 
-  /* Reset the default appearance */
+  /* Reset the default appearance of the progressBar*/
 progress[value] {
   -webkit-appearance: none;
    appearance: none;

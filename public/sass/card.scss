@@ -2,11 +2,13 @@
 @import 'colors';
 
 .cards-wrapper{
+	/* Setting up the Card*/
 	height: 100%;
 	.card {
 		width: 28%;
 		min-width: 385px;
 		max-height: 421px;
+		/* Card header */
 		.card-header {
 			position: relative;
 			.tag {
@@ -20,6 +22,7 @@
 				color: white;
 				font-family: $noto;
 				font-size: 0.7em;
+				font-weight: 500;
 			}
 			height: 100%;
 			max-height: 157px;
@@ -32,23 +35,27 @@
 		}
 	}
 }
-/* Content Header */
+/* Card body */
 .card {
 	min-height: 421px;
 	.card-content {
 		margin: 0px 25px 0px 25px;
 		font-family: 'Noto Sans', sans-serif;
 		color: $content;
-		.card-content__company {
-			font-size: 1.1em;
-			margin-bottom: 5px;
-			line-height: normal;
-			font-stretch: normal;
+		.card-content-header {
+			display: inline-flex;
+			flex-direction: column;
+			.card-content__company {
+				font-size: 1.1em;
+				margin-bottom: 5px;
+				line-height: normal;
+				font-stretch: normal;
 		}
-		.card-content__advertiser {
-			margin: 5px 0px 5px 0px;
-			font-size: 0.9em;
-			line-height: normal;
+			.card-content__advertiser {
+				margin: 5px 0px 5px 0px;
+				font-size: 0.9em;
+				line-height: normal;
+		}
 		}
 		.date {
 			font-size: 0.6em;
@@ -64,6 +71,26 @@
 				height: 4px;
 				border-radius: 4.5px;
 			}
+		}
+	}
+}
+.card-content-body {
+	width: 100%;
+	margin: auto;
+	table {
+		margin-top: 15px;
+		width: 100%;
+		th {
+			padding-top: 15px;
+			color: $date;
+			font-size: 0.7em;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+		td {
+			padding-top: 5px;
+			font-weight: bold;
+			text-align: center;
 		}
 	}
 }

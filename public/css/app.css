@@ -11,11 +11,13 @@
 
 /* Header span */
 .cards-wrapper {
+  /* Setting up the Card*/
   height: 100%; }
   .cards-wrapper .card {
     width: 28%;
     min-width: 385px;
-    max-height: 421px; }
+    max-height: 421px;
+    /* Card header */ }
     .cards-wrapper .card .card-header {
       position: relative;
       height: 100%;
@@ -32,27 +34,31 @@
         border-color: #162c45;
         color: white;
         font-family: "Noto Sans", sans-serif;
-        font-size: 0.7em; }
+        font-size: 0.7em;
+        font-weight: 500; }
       .cards-wrapper .card .card-header img {
         width: 100%;
         height: 100%; }
 
-/* Content Header */
+/* Card body */
 .card {
   min-height: 421px; }
   .card .card-content {
     margin: 0px 25px 0px 25px;
     font-family: 'Noto Sans', sans-serif;
     color: #162c45; }
-    .card .card-content .card-content__company {
-      font-size: 1.1em;
-      margin-bottom: 5px;
-      line-height: normal;
-      font-stretch: normal; }
-    .card .card-content .card-content__advertiser {
-      margin: 5px 0px 5px 0px;
-      font-size: 0.9em;
-      line-height: normal; }
+    .card .card-content .card-content-header {
+      display: inline-flex;
+      flex-direction: column; }
+      .card .card-content .card-content-header .card-content__company {
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        line-height: normal;
+        font-stretch: normal; }
+      .card .card-content .card-content-header .card-content__advertiser {
+        margin: 5px 0px 5px 0px;
+        font-size: 0.9em;
+        line-height: normal; }
     .card .card-content .date {
       font-size: 0.6em;
       color: #8c8c8c;
@@ -66,7 +72,25 @@
         height: 4px;
         border-radius: 4.5px; }
 
+.card-content-body {
+  width: 100%;
+  margin: auto; }
+  .card-content-body table {
+    margin-top: 15px;
+    width: 100%; }
+    .card-content-body table th {
+      padding-top: 15px;
+      color: #8c8c8c;
+      font-size: 0.7em;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .card-content-body table td {
+      padding-top: 5px;
+      font-weight: bold;
+      text-align: center; }
+
 /* Header span */
+/* Global setting */
 body {
   background-color: #f1f2f5; }
   body main {
@@ -76,7 +100,7 @@ body {
       height: 100%;
       background-color: white; }
 
-/* Reset the default appearance */
+/* Reset the default appearance of the progressBar*/
 progress[value] {
   -webkit-appearance: none;
   appearance: none;
