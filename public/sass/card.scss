@@ -60,7 +60,7 @@
 		}
 	}
 }
-/* Card body */
+
 .card {
 	min-height: 421px;
 	.card-content {
@@ -119,4 +119,19 @@
 			text-align: center;
 		}
 	}
+}
+
+.card-content-footer {
+	.card-content-footer__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.card-content-footer__header:nth-child(1) {
+		margin-top: 10px;
+	}
+	.card-content-footer__header:nth-child(2) {
+		margin-top: 10px;
+	}
+
 }

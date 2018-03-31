@@ -73,7 +73,6 @@
         width: 100%;
         height: 100%; }
 
-/* Card body */
 .card {
   min-height: 421px; }
   .card .card-content {
@@ -122,6 +121,16 @@
       font-weight: bold;
       text-align: center; }
 
+.card-content-footer .card-content-footer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.card-content-footer .card-content-footer__header:nth-child(1) {
+  margin-top: 10px; }
+.card-content-footer .card-content-footer__header:nth-child(2) {
+  margin-top: 10px; }
+
+/*  main document, ProgressBar, SwitchButton */
 /* Global setting */
 body {
   background-color: #f1f2f5; }
@@ -149,12 +158,7 @@ progress[value]::-webkit-progress-value {
   background-color: #3fd48b;
   border-radius: 4.5px; }
 
-body, html {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%; }
-
+/* Configuring the switch button  */
 #switch {
   background-color: rgba(34, 31, 31, 0.26);
   width: 34px;
@@ -173,7 +177,8 @@ body, html {
     border-radius: 50px;
     position: absolute;
     transition: 0.4s ease;
-    top: -25%; }
+    top: -25%;
+    left: -10%; }
   #switch:active:before {
     transform: translateX(100%); }
   #switch.toggle {
