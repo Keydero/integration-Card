@@ -48,15 +48,15 @@
         bottom: -170px; }
       .cards-wrapper .card .card-header .button {
         background-color: #3fd48b;
-        display: inline-block;
         position: absolute;
         bottom: -25px;
         right: 10px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-        width: 50px;
-        height: 50px;
+        width: 22px;
+        height: 22px;
         border-radius: 100%;
         cursor: pointer;
+        padding: 10px;
         text-decoration: none; }
       .cards-wrapper .card .card-header .tag {
         padding: 5px 15px;
