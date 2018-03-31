@@ -17,11 +17,21 @@
   background-color: #eeeeee;
   position: absolute; }
 
+.card-content-body table th {
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: red; }
+
 /* Header span */
 .cards-wrapper {
   /* Setting up the Card*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
   height: 100%; }
   .cards-wrapper .card {
+    margin: 25px 0px;
     width: 28%;
     min-width: 385px;
     max-height: 421px;
@@ -36,6 +46,18 @@
         bottom: -100px; }
       .cards-wrapper .card .card-header:before {
         bottom: -170px; }
+      .cards-wrapper .card .card-header .button {
+        background-color: #3fd48b;
+        display: inline-block;
+        position: absolute;
+        bottom: -25px;
+        right: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        cursor: pointer;
+        text-decoration: none; }
       .cards-wrapper .card .card-header .tag {
         padding: 5px 15px;
         border-radius: 5px;
@@ -93,8 +115,8 @@
     .card-content-body table th {
       padding-top: 15px;
       color: #8c8c8c;
-      font-size: 0.7em;
-      font-weight: 500;
+      font-size: 0.6em;
+      font-weight: 600;
       text-transform: uppercase; }
     .card-content-body table td {
       padding-top: 5px;
@@ -106,7 +128,7 @@
 body {
   background-color: #f1f2f5; }
   body main {
-    height: 100vh; }
+    height: 100%; }
     body main .container {
       margin: 75px 25px 50px 25px;
       height: 100%;
