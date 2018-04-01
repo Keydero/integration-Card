@@ -6,7 +6,9 @@ $(function() {
 
 
 	let progress = document.getElementById("progress").value = "0.9";
-
+$( "#input" ).keypress(function() {
+  console.log( "Handler for .keypress() called." );
+});
 });
 
 
