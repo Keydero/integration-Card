@@ -150,17 +150,15 @@
     width: 15px;
     position: absolute;
     right: 10px;
-    cursor: pointer; }
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .card-content-footer .input-wrapper .input-icon img {
+      width: 20px;
+      height: 20px; }
   .card-content-footer .input-wrapper .is-filled {
     border: solid 1px #3fd48b; }
-
-.setting {
-  background-image: -webkit-image-set(url("../assets/icons/settings/settings.png") 1x, url("../assets/icons/settings/settings@2x.png") 2x, url("../assets/icons/settings/settings@3x.png") 3x);
-  background-size: cover; }
-
-.close {
-  background-image: -webkit-image-set(url("../assets/icons/close/close.png") 1x, url("../assets/icons/close/close@2x.png") 2x, url("../assets/icons/close/close@3x.png") 3x);
-  background-size: cover; }
 
 /*  main document, ProgressBar, SwitchButton */
 /* Global setting */
