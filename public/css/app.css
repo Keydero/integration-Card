@@ -34,7 +34,11 @@
     width: 28%;
     min-width: 385px;
     max-height: 421px;
+    box-shadow: 2px 5px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     /* Card header */ }
+    .cards-wrapper .card:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.1); }
     .cards-wrapper .card .card-header {
       position: relative;
       height: 100%;
@@ -182,7 +186,7 @@ progress[value]::-webkit-progress-value {
   background-color: #3fd48b;
   border-radius: 4.5px; }
 
-/* Configuring the switch button  */
+/* configure the switch button  */
 #switch {
   background-color: rgba(34, 31, 31, 0.26);
   width: 34px;

@@ -27,13 +27,7 @@ progress[value]::-webkit-progress-value {
   border-radius: 4.5px
 }
 
-// body, html {
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// 	height: 100%;
-// }
-  /* Configuring the switch button  */
+  /* configure the switch button  */
 #switch {
 	background-color: rgba(34, 31, 31, 0.26);
 	width: 34px;
@@ -70,19 +64,19 @@ progress[value]::-webkit-progress-value {
 
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #8c8c8c;
+  color: $smooth-gray;
   padding-left: 10px;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #8c8c8c;
+  color: $smooth-gray;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #8c8c8c;
+  color: $smooth-gray;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #8c8c8c;
+  color: $smooth-gray;
 }
 
 
