@@ -1,14 +1,14 @@
 
-$(function() {
+$(function() { 
 	$('#switch').click(function() {
 		$(this).toggleClass('toggle');
 	});
+	
+	let progress = document.getElementById("progress").value = "0.55";
 
-
-	let progress = document.getElementById("progress").value = "0.9";
-$( "#input" ).keypress(function() {
-  console.log( "Handler for .keypress() called." );
-});
+// $('#input').keydown(function () {
+//         $(this).toggleClass("is-filled", this.value != ' ');
+// });
 });
 
 
