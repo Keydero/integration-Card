@@ -56,7 +56,11 @@
         border-radius: 100%;
         cursor: pointer;
         padding: 10px;
-        text-decoration: none; }
+        text-decoration: none;
+        transition: .15s ease-in; }
+        .cards-wrapper .card .card-header .button:active {
+          bottom: -28px;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
       .cards-wrapper .card .card-header .tag {
         padding: 5px 15px;
         border-radius: 5px;

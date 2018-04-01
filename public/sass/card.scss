@@ -37,6 +37,11 @@
     		cursor: pointer;
     		padding: 10px;
     		text-decoration: none;
+    		transition:  .15s ease-in;
+    		&:active {
+    			bottom: -28px;
+    			box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    		}
 		}
 		.tag {
 			padding: 5px 15px;
