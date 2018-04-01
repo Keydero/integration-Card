@@ -2,17 +2,12 @@
 @import 'colors';
   /*  main document, ProgressBar, SwitchButton */
   /* Global setting */
-body {
-	background-color: $gray;
-	main {
-		height: 100%;
-		.container {
-			margin: 75px 25px 50px 25px;
-			height: 100%;
-			background-color: white;
-		}
+
+@media (max-width: 800px) { 
+	.container {
+		width: 800px;
 	}
-}
+ }
   /* Reset the default appearance of the progressBar*/
 progress[value] {
   -webkit-appearance: none;
@@ -90,3 +85,6 @@ progress[value]::-webkit-progress-value {
   color: #8c8c8c;
 }
 
+
+
+ 

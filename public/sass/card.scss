@@ -7,6 +7,7 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	height: 100%;
+
 	.card {
 		margin: 25px 0px;
 		width: 28%;
@@ -168,18 +169,18 @@
 
 .setting {
         background-image: -webkit-image-set(
-        	   url('../assets/icons/settings/settings.png') 1x,
-               url('../assets/icons/settings/settings@2x.png') 2x,
-               url('../assets/icons/settings/settings@3x.png') 3x
-               );
+        url('../assets/icons/settings/settings.png') 1x,
+        url('../assets/icons/settings/settings@2x.png') 2x,
+        url('../assets/icons/settings/settings@3x.png') 3x
+        );
         background-size: cover;
 }
 
 .close {
         background-image: -webkit-image-set(
-        	   url('../assets/icons/close/close.png') 1x,
-               url('../assets/icons/close/close@2x.png') 2x,
-               url('../assets/icons/close/close@3x.png') 3x
-               );
+       	url('../assets/icons/close/close.png') 1x,
+        url('../assets/icons/close/close@2x.png') 2x,
+        url('../assets/icons/close/close@3x.png') 3x
+        );
         background-size: cover;	
 }
