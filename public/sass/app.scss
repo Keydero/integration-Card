@@ -64,9 +64,10 @@ progress[value]::-webkit-progress-value {
 		transform: translateX(100%);
 	}
 	&.toggle {
-		background-color: #f1f1f1;
+		background-color: #95E6B7;
 		&:before{
 			transform: translateX(100%);
+			background-color: #3fd48b;
 		}
 	}
 }
