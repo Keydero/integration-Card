@@ -5,8 +5,8 @@ $(function() {
 	});
 
 
-	let progress = document.getElementById("progress").value = "0.3";
-	
+	let progress = document.getElementById("progress").value = "0.9";
+
 });
 
 
